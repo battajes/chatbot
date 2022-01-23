@@ -1,4 +1,3 @@
-"""Object-Oriented Programming: Twitter example
 
 
 === Module description ===
