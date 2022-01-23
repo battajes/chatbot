@@ -1,8 +1,5 @@
 """Object-Oriented Programming: Twitter example
 
-=== CSC148 Winter 2022 ===
-Department of Mathematical and Computational Sciences,
-University of Toronto Mississauga
 
 === Module description ===
 This module contains two sample classes Tweet and User that we developed
