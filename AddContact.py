@@ -1,9 +1,5 @@
 
 
-=== Module description ===
-This module contains two sample classes Tweet and User that we developed
-as way to introd
-uce the major concepts of object-oriented programming.
 """
 # Allows forward references in type annotations.
 from __future__ import annotations
