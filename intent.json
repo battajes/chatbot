@@ -1,0 +1,221 @@
+{
+    "intents": [
+        {
+            "subject": "Hi",
+            "patterns": [
+                "Hi",
+                "How are you",
+                "Hey",
+                "Hi there",
+                "Hello",
+                "Good day",
+                "yo",
+                "Hi"
+            ],
+            "responses": [
+                "Hi, how can I help you?"
+            ]
+
+        },
+        {
+            "subject": "Bye",
+            "patterns": [
+                "Bye",
+                "See you later",
+                "Goodbye",
+                "Get lost",
+                "Till next time",
+                "bye"
+            ],
+            "responses": [
+                "Goodbye."
+            ]
+        },
+
+        {
+            "subject": "search",
+            "patterns": [
+                "google",
+                "search",
+                "internet",
+                "find",
+                "Who is"
+            ],
+            "responses": [
+                "Searching google: "
+            ]
+        },
+
+        {
+            "subject": "thank",
+            "patterns": [
+                "Thanks",
+                "Thank you"
+
+            ],
+            "responses": [
+                "Happy to help!",
+                "My pleasure!",
+                "Your welcome"
+            ]
+        },
+        {
+            "subject": "noanswer",
+            "patterns": [],
+            "responses": [
+                "Please enter something"
+            ]
+        },
+        {
+            "subject": "options",
+            "patterns": [
+                "How you could help me?",
+                "What you can do?",
+                "What help you provide?",
+                "How you can be helpful?",
+                "What support is offered"
+            ],
+            "responses": [
+                "I am a general purpose chatbot. My capabilities are : \n 1. I can chat with you. Try asking me for jokes. \n 2. I can add a new contact\n 3. I can search something in google for you \n 4. I can get you the weather for any country. \n 5. I can add to your grocery list\n 6. I can set a timer \n "
+            ]
+        },
+
+        {
+            "subject": "jokes",
+            "patterns": [
+                "Tell me a joke"
+            ],
+            "responses": [
+                "Today I went to buy some camo pants but couldn’t find any.",
+                "I was wondering why the frisbee kept getting bigger and bigger, but then it hit me.",
+                "The easiest time to add insult to injury is when you’re signing someone’s cast.",
+                "It takes a lot of balls to golf the way I do.",
+                " Russian dolls are so full of themselves. ",
+                "People who use selfie sticks really need to have a good, long look at themselves.  ",
+                "How does a penguin build a house? Igloos it together",
+            ]
+        },
+        {
+            "subject": "Identity",
+            "patterns": [
+                "Who are you",
+                "what are you"
+            ],
+            "responses": [
+                "I am a chatbot"
+            ]
+        },
+        {
+            "subject": "datetime",
+            "patterns": [
+                "What is the time",
+                "what is the date",
+                "date",
+                "time",
+                "tell me the date","day","what day is is today"
+            ],
+            "responses": [
+                "Date and Time"
+            ]
+        },
+        {
+            "subject": "whatsup",
+            "patterns": [
+                "Whats up",
+                "How are you",
+                "Sup"
+            ],
+            "responses": [
+                "Im good how are you"
+            ]
+        },
+        {
+            "subject": "haha",
+            "patterns": [
+                "haha",
+                "lol",
+                "rofl",
+                "lmao",
+                "thats funny"
+            ],
+            "responses": [
+                "Haha"
+            ]
+        },
+
+        {
+            "subject": "exclaim",
+            "patterns": [
+                "Awesome",
+                "Great",
+                "I know",
+                "ok",
+                "yeah"
+            ],
+            "responses": [
+                "Yeah!"
+            ]
+        },
+
+        {
+            "subject": "weather",
+            "patterns": [
+                "temperature",
+                "weather",
+                "how hot is it"
+            ]
+        },
+
+        {
+            "subject": "no",
+            "patterns": [
+                "no",
+                "nope"
+            ],
+            "responses": [
+                "ok"
+            ]
+        },
+
+        {
+            "subject": "contact",
+            "patterns": [
+                "add a contact"
+            ],
+            "responses": [
+                "Adding contact..."
+            ]
+        },
+        {
+            "subject": "timer",
+            "patterns": [
+                "set a timer",
+                "timer",
+                "start a timer"
+            ]
+        },
+            {"subject": "riddle",
+            "patterns": [
+                "Ask me a riddle",
+                "Ask me a question",
+                "Riddle",
+                "Tell me a riddle"
+            ],
+            "responses": [
+                " What has to be broken before you can use it?... An egg!",
+                "I’m tall when I’m young, and I’m short when I’m old. What am I? ...  A candle!",
+                " What month of the year has 28 days??... All of them!",
+                "What is full of holes but still holds water? ... A sponge!"
+            ]
+        },
+        {
+            "subject": "grocery",
+            "patterns": [
+                "Add to grocery list"
+            ],
+            "responses": [
+                "Adding to a grocery list..."
+            ]
+        }
+    ]
+}
