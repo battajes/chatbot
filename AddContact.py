@@ -11,7 +11,7 @@ from datetime import date  # Python library for working with dates (and times)
 
 
 class Person:
-    """A tweet, like in Twitter.
+    """add a person for contact
 
     === Attributes ===
     name: the name of the person
